@@ -1,0 +1,27 @@
+body{
+    background-color: #212121;
+    color: #fff;
+}
+
+#container{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+#main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 100px;
+}
+.key-panel{
+    /* font-family: 'Times New Roman', Times, serif; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #faebd7;
+    color: #212121;
+    padding: 30px;
+    font-size: 2rem;
+    border-radius: 10px;
+}
